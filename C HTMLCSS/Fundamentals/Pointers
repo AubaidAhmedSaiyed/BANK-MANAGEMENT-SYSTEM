@@ -1,0 +1,61 @@
+// POINTERS
+
+// VARIABLE THAT STORES MEMORY ADDRESS OF ANOTHER VARIABLE
+ 
+
+
+ SYntax:
+ int a = 22;
+ int*ptr=&a; 
+  >>> & = address of 
+              >>> * = value at  address  :  * aur ** Kaise Kaam Karte Hain
+                                            Single * (Dereferencing ptr):
+                                                                    ptr ; i ka address store karta hai.
+                                                                        *ptr; us address pe stored value deta hai, jo i hai.
+                                            Double * (Dereferencing ptr_to_ptr):
+                                                                   ptr_to_ptr ptr ka address store karta hai.
+                                                                   *ptr_to_ptr us address pe stored value deta hai, jo ptr hai.
+                                                                        **ptr_to_ptr us address pe stored value deta hai jahan ptr point kar raha hai, jo i hai.
+*X == VARIABLE (consider)  === that variable jiska address is pointr ne store kara hai
+( only difference is that address level per change hoga if we use *X)
+*(&a)  : value of a:  &a == address of a === *(address)== value of that address
+
+                                                     *N == VALUE OF ADDRESS OF N 
+
+(*ptr)++ == *ptr = *ptr +1
+
+Now  ::: printf("%p", &a or ptr or %ptr);  OR printf("%d", a  or *ptr);
+*/
+
+Pointer to pointer :
+variable that stores address of another pointer
+
+syntax:
+int**pptr
+char**pptr and so on 
+
+
+**pptr == value of first variable 
+
+
+
+ "  EVERY FUNCTION HAS ITS OWN VARIABLE VALUES IRRESPECTIVE OF WHETHER THAT VARIABLE(SAME) IS USED BY OTHER FUNCTION OR NOT "  
+
+
+
+ Call by value : variable copy : means another address location but same value
+ "PASSING VALUE OF VARIABLE AS ARGUMENT " 
+ Call by reference : address level per value change 
+ "PASSING ADDRESS OF VARIABLE AS ARGUMENT" 
+
+
+ WHEN RETURNING MULTIPLE VALUE FROM SINGLE FUNCTION : "USE POINTERS"
+
+
+
+>>>Pointers ki madad se functions ko variables ke addresses pass kiye jaate hain taaki function unke values ko modify kar sake.
+
+>>>Yeh technique multiple values ko function se return karne ke liye use hoti hai, jo code ko cleaner aur efficient banati hai.
+
+
+>>>> * operator ka use karke hum pointers ko dereference karte hain. Dereferencing ka matlab hai pointer ke address se value ko access karna aur modify karna:

@@ -1,0 +1,17 @@
+/* <!-- inline style --> */
+<h1 style="color:rgb(229, 144, 39)">Registration-Form </h1>
+
+/* Style Tag */
+
+<style>
+        h3{
+            color:red;
+            background-color: bisque;
+        }
+</style>
+/* To be used every time */
+Another Way::
+External stylesheet 
+wrtiting css in separate sheet and link with html 
+
+

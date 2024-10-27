@@ -1,0 +1,29 @@
+File ptr : that points to this structure and is used to access the file 
+where as : structuure -- is file the create for operning file
+
+
+
+FILE*fptr : pointer
+
+FILE*fptr;
+fptr = fopen("filename",mode); // open
+fclose(fptr); // close;
+
+
+Reading from the file: 
+
+char ch;
+fscanf(fptr,"%c",&ch);
+
+
+Writing to a file:
+
+char ch = 'a';
+fprintf(fptr,"%c",ch);
+
+
+--> fgetc(fptr)  : read a char
+--> fputc('A',fptr)   : write a char
+
+
+EOF : fgetc return eof to show fiel has ended

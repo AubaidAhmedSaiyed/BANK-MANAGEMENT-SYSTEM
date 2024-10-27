@@ -1,0 +1,16 @@
+h1 {
+    color:rgb(82, 136, 237);
+    text-decoration: cornflowerblue underline;
+    
+}
+
+.userbtn {
+    color:rgb(12, 12, 12);
+    background-color: aqua;
+
+}
+
+#searchbtn{
+    color: black;
+    background-color: aqua;
+}

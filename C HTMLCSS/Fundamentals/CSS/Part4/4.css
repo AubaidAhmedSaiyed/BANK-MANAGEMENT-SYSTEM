@@ -1,0 +1,21 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(0, 174, 255, 0.62);
+    transition: margin-top 2s ease-in-out 0.2s;
+    margin-top: 10px;
+    /* for in center */
+    margin:0 auto;
+}
+
+button{
+    background-color: bisque;
+    opacity:1;
+}
+
+div:hover{
+   background-color:rgb(7, 41, 103);
+   border-radius: 50%;
+   margin-top:400px ;
+
+}

@@ -1,0 +1,66 @@
+Structure: collection of different data types
+
+SYNTAX:
+struct name{                     
+    char name[100];              
+    int rollNumb;
+    float CGPA;
+}
+
+struct name n1;
+n1.CGPA=7.5;
+n1.name = 'sfss';
+
+structure are stored in continous memory location
+
+
+
+POINTERS TO STRUCTURE: 
+
+same as other but only differnnce is that "struct"
+
+struct  student s1;
+struct student*ptr;
+ptr=&s1;
+
+
+struct as2 = {0}: null value to all 
+
+struct student s1 = {34,8.9,"Aubaid"}; // direct declaration but keep in mind the order - must be same as that of when making struct
+then print - s1.roll or something 
+
+
+
+//
+Arrow Operator:
+
+s1.roll == (*ptr).roll == ptr->roll
+
+// 
+PASSING STRUCTURE TO FUNCTION: 
+
+void name(struct student s1);
+
+
+
+typedef Keyword : used to create alias for data types 
+
+alias  : alternative names 
+
+typedef struct ComputerStudet{
+    int roll;
+    float cgpa;
+    char name[200];
+} cs;
+
+this cs will be used against ComputerStudet
+like : cs student
+
+cs s1;
+s1.roll = 23;
+printf("%%d\n",s1.name);
+
+
+VECTORS :   SAME AS IN PHYSICS
+
+

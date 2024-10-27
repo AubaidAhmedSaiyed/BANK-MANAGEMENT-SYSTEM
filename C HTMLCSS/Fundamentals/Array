@@ -1,0 +1,66 @@
+ARRAY: int marks[size]
+float/char/int can be used
+also : int/float : 4 bytes : char : 1 bytes
+First position : 0 (indexing)
+input: scanf("%d",&marks[0]);  : for inputing first value 
+printf(marks[0]) and so on 
+
+
+int marks[]= {,,,,,....};
+OR
+int  marks[3]={,,};
+
+
+
+        "POINTER ARITHMETIC:"
+
+POINTER: INCREMENT/ DECREMENT
+
+CASE1:
+int  age =22;
+int*ptr=&age;
+ptr++; == ptr =ptr+1(number of bytes as per datatype)
+
+if ptr == 20000 
+then ptr++ == 20004
+
+pointers can be subtracted/compared (same datatype)
+
+
+                "ARRAY IS POINTER"
+
+    int*ptr = &arr[0] or arr;
+
+
+
+Traversing Array:
+int arr[10];
+
+int*ptr=arr[0];
+loop = ptr++
+
+
+Array as funcction:
+
+void numb(int arr[],int n) 
+
+or 
+
+void numb(int*arr, int  n)
+// call 
+numb(arr,n)
+
+
+2-D Array:
+int arr[]= {{1,2,3,4}} // DECLARE
+
+//Access
+arr[0][0]...
+
+
+
+IF ARRAY SIZE 5
+AND WRITTEN OR ASK 7 THEN OUTPUT (NUMBER)=0
+
+
+Look for 2D array questions........

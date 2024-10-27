@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SelectElement
+
+    </title>
+
+</head>
+<body>
+     <!-- Redirect to Google -->
+     <form action = "https://www.google.co.in/search?">
+        <!-- checkbox -->
+        <input type = "checkbox" name ="age" id="age"/>
+        <label for="age">I am 18+</label>
+        <!-- after tick = url name = on-->
+        
+        <!-- write checked :  after id for tick mark -->
+        <div>
+            <!-- It can be SecretCode for server which may reflect upon users mode of thinking(Prediction) -->
+            Choose One From Below:
+            <br>
+            <input type = "radio" name="fruit" id= "apple" value = "apple">
+            <label for="apple">Apple</label>
+            <input type = "radio" name="fruit" id= "Guava"value = "Guava">
+            <label for="Guava">Guava</label>
+            <input type = "radio" name="fruit" id= "Banana"value = "Banana">
+            <label for="Banana">Banana</label>
+            <input type = "radio" name="fruit" id= "mango"value = "mango">
+            <label for="mango">mango</label>
+        </div>
+        <br>
+        Choose Your Profession:
+        <select name ="Profession" id="Profession">
+            <!-- Title of selection -->
+            <option>Select Your Option</option>
+            <!-- if wnat preselect option then in any option-write selected before name-->
+            <option value="Stu">Student</option>
+            <option value="Prof">Professor</option>
+            <option value="Freh">Freshmen</option>
+            <option value="Grad">Graduate</option>
+        </select>
+        <br>
+        <label for="vol">Select Volume Level : </label>
+        <input type = "range"id="vol" min="0" max="100" name = "vol">
+        <!-- vol = 0 > in url if zero , similarly in 100 -->
+         <!-- if preselected - value ="range" -->
+        <hr/>
+        <!-- By thses = ML type used to predicte user thinking based upon data-->
+         <!-- use br tag for newline -->
+        <label for = "Feedback"> Please Enter Some Text : <br></label>
+        <textarea id = "Feedback"name ="Feedback" rows = "3" cols = "50"></textarea>
+        <hr/>
+
+        <button>submit</button>
+        </form>
+        <hr/>
+    
+</body>
+</html>

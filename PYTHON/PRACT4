@@ -1,0 +1,46 @@
+#  property decorator
+class student:
+    def __init__(self,p,c,m):
+        self.p=p
+        self.c=c
+        self.m=m
+        self.perc=(self.p+self.m+self.c)/3
+    @property
+    def per(self):
+        return (self.p + self.m + self.c) / 3    
+    def CalcPerc(self,p,c,m):
+        s=(p+c+m)/3
+        return s
+p=int(input('enter 1:'))
+c=int(input('enter 2:'))
+m=int(input('enter 3:'))
+
+
+s1=student(p,c,m)
+print('PHYSICS:',s1.p)
+print('CHEMISTRY:',s1.c)
+print('MATHS:',s1.m)
+print(s1.CalcPerc(p,c,m))
+print(s1.per())
+ch=input('wnat to change marks?:')
+if ch in 'YESyesYes':
+    print('ok')
+    c=input('ENTER SUBJECT:')
+    if c=='physics':
+        p=int(input('ENTER MARKS:'))
+        p=s1.p
+        print(s1.per())
+        print(s1.CalcPerc(p,c,m))
+    elif c=='chemistry':
+        c=int(input('ENTER MARKS:'))
+        c=s1.c
+        print(s1.per())
+        print(s1.CalcPerc(p,c,m))
+    else:
+        m=int(input('ENTER MARKS:'))
+        m=s1.m
+        print(s1.per())
+        print(s1.CalcPerc(p,c,m))
+else:
+    print('Have a good day!')
+

@@ -1,0 +1,40 @@
+
+h3 {
+    color:rgb(252, 0, 105);
+    font-weight: lighter;
+    text-align: center;
+    
+}
+h1 {
+    color:rgb(244, 57, 57);
+    text-align:center;
+    text-decoration: wavy rgb(244, 37, 89) underline;
+    
+}
+
+p {
+    color:rgb(236, 120, 137);
+    
+    font-weight: 500;
+    text-align: center;
+    text-decoration:rgb(244, 80, 156)  underline;
+    line-height: 1.5;
+    font-family: 'Arial Narrow Bold';
+
+}
+button {
+    color:rgb(255, 255, 255);
+    background-color:teal;
+
+}
+html {
+    background-color: rgb(173, 210, 210);
+}
+input,select {
+    background-color: rgb(245, 218, 232);
+    text-decoration:none;
+}
+a {
+    text-decoration: none;
+}
+
