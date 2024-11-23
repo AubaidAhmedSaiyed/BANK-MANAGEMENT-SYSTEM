@@ -1,6 +1,5 @@
 #########________________________BANK MANAGEMENT SYSTEM_________________________##########
 
-This is My FIrst Practical Project which i had submitted for my 10+2 project Under Computer Science Department of my school.
  This Bank Management System is user-friendly : Backed by many error-handling ( which makes it very easy to use ).
 
   Salient Features:
