@@ -3,7 +3,7 @@ import random
 from datetime import datetime
 
 
-con=m.connect(host="localhost", user="root",passwd="aubaid313786")
+con=m.connect(host="localhost", user="root",passwd="")
 if con.is_connected():#Checking connectivivty
     print('Successfully connected')
 else:
